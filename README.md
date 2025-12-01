@@ -81,6 +81,10 @@ const [currentPatch, setCurrentPatch] = useState(PRESETS[0]);
 
 No API keys. No cloud services. No subscriptions.
 
+## ☁️ Deploying to Cloudflare Pages
+
+Use the provided `wrangler.toml` and the steps in `CLOUDFLARE_DEPLOY.md` to publish a static build to Cloudflare Pages. Build your frontend into `dist/`, preview with `npx wrangler pages dev dist`, then deploy with `npx wrangler pages publish dist --project-name=triple-vrust3`.
+
 ## 🔧 Tech Stack
 
 - Web Audio API (synthesis)

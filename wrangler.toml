@@ -1,0 +1,6 @@
+name = "triple-vrust3"
+
+# Cloudflare Pages configuration
+# Build artifacts should be placed in the `dist` directory before publishing.
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-05-01"
